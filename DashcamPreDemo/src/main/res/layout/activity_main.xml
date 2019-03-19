@@ -102,7 +102,160 @@
             android:visibility="gone"/>
     </RelativeLayout>
 
-    <LinearLayout
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View style="@style/BaseLine.Horizontallist"
+                android:layout_alignParentBottom="true"/>
+
+            <Button
+                android:id="@+id/bt_rec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/record"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:textColor="@color/press_color"
+                android:textSize="25sp"/>
+
+            <View style="@style/BaseLine.Horizontallist"
+                android:layout_alignParentBottom="true"/>
+
+            <Button
+                android:id="@+id/bt_catch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/cat"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:textColor="@color/press_color"
+                android:textSize="25sp"/>
+
+            <View style="@style/BaseLine.Horizontallist"
+                android:layout_alignParentBottom="true"/>
+
+            <Button
+                android:id="@+id/bt_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/five"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:textColor="@color/press_color"
+                android:textSize="25sp"/>
+
+            <View style="@style/BaseLine.Horizontallist"
+                android:layout_alignParentBottom="true"/>
+
+            <Button
+                android:id="@+id/bt_short"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/sslx"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:textColor="@color/press_color"
+                android:textSize="25sp"/>
+
+            <View style="@style/BaseLine.Horizontallist"
+                android:layout_alignParentBottom="true"/>
+
+            <Button
+                android:id="@+id/btn_correct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/correct_time"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:textColor="@color/press_color"
+                android:textSize="25sp"/>
+
+            <View style="@style/BaseLine.Horizontallist"
+                android:layout_alignParentBottom="true"/>
+
+            <Button
+                android:id="@+id/bt_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/event"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:textColor="@color/press_color"
+                android:textSize="25sp"/>
+
+            <View style="@style/BaseLine.Horizontallist"
+                android:layout_alignParentBottom="true"/>
+
+            <Button
+                android:id="@+id/bt_cycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/cycle"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:textColor="@color/press_color"
+                android:textSize="25sp"/>
+
+            <View style="@style/BaseLine.Horizontallist"
+                android:layout_alignParentBottom="true"/>
+
+            <Button
+                android:id="@+id/bt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/user"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:textColor="@color/press_color"
+                android:textSize="25sp"/>
+
+            <View style="@style/BaseLine.Horizontallist"
+                android:layout_alignParentBottom="true"/>
+
+            <Button
+                android:id="@+id/btn_get_capabilities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/capability"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:textColor="@color/press_color"
+                android:textSize="25sp"/>
+
+            <View style="@style/BaseLine.Horizontallist"
+                android:layout_alignParentBottom="true"/>
+
+            <Button
+                android:id="@+id/btn_preview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/preview"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:textColor="@color/press_color"
+                android:textSize="25sp"/>
+
+            <View style="@style/BaseLine.Horizontallist"
+                android:layout_alignParentBottom="true"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<LinearLayout
         android:id="@+id/rec_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -228,7 +381,7 @@
             android:text="@string/preview"
             android:textColor="@color/press_color"
             android:textSize="25sp"/>
-    </LinearLayout>
+    </LinearLayout>-->
 
 
 </LinearLayout>

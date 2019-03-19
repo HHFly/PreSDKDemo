@@ -9,4 +9,5 @@
     <color name="bgcolor">#6A5ACD</color>
     <color name="checked">#FF0000</color>
     <color name="unchecked">#00FF00</color>
+    <color name="view_line">#FFFFFF</color>
 </resources>
